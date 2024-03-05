@@ -1,0 +1,28 @@
+{
+    "name": "ilaura/upc-validator",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ilaura\\UpcValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilaura",
+            "email": "laura.iancu87@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.3"
+    },
+    "description": "A simple UPC validator",
+    "autoload-dev": {
+        "psr-4": {
+            "Ilaura\\UpcValidator\\Tests\\": "tests/"
+        }
+    }
+}
